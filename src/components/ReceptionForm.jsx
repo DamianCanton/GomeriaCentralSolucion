@@ -13,12 +13,12 @@ import {
 import { clsx } from "clsx";
 
 const SERVICE_OPTIONS = [
-  "Balanceado",
+  "Balanceo",
   "Cambio de cubiertas",
   "Alineado",
-  "Frenos delanteros",
-  "Frenos traseros",
-  "Rotación de cubiertas",
+  "Frenos",
+  "Tren delantero",
+  "Amortiguadores",
 ];
 
 const InputField = ({ label, icon: Icon, error, ...props }) => (
